@@ -18,8 +18,10 @@ if (metodoMio(x))
 System.out.print(x + " ");                         	 
 }         	 
 	}
+    //En el segundo caso aux es true
 public static boolean metodoMio(int variable){
-int j = 2;
+variable=22;
+    int j = 21;
 boolean aux=true;
 while ((aux) && (j!=variable)){
 if (variable % j == 0)
